@@ -123,9 +123,9 @@ def play_hangman():
 
     # Notify player of victory or defeat
     if word_solved:
-        print('Congratulations! You won!')
+        print('You Win Turkey!')
     else:
-        print('Try again next time!')
+        print('You Lose Turkey!')
 
     # Ask player if he/she wants to try again
     try_again = input('Would you like to try again? [y/Y] ')
